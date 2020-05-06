@@ -1,9 +1,15 @@
-**Status:** Maintenance (expect bug fixes and minor updates)
+Welcome to Spinning Up in Deep RL! (Only Pytorch Fork) 
+======================================================
 
-Welcome to Spinning Up in Deep RL! 
-==================================
+This fork provides a minimal version of spinning up without the dependency on tensorflow. To install this version please use the following:
 
-This is an educational resource produced by OpenAI that makes it easier to learn about deep reinforcement learning (deep RL).
+```
+$ git clone https://github.com/avik-pal/spinningup.git
+$ cd spinningup
+$ pip install -e .
+```
+
+Spinning is an educational resource produced by OpenAI that makes it easier to learn about deep reinforcement learning (deep RL).
 
 For the unfamiliar: [reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning) (RL) is a machine learning approach for teaching agents how to solve tasks by trial and error. Deep RL refers to the combination of RL with [deep learning](http://ufldl.stanford.edu/tutorial/).
 
